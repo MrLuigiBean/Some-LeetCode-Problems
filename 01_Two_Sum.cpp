@@ -7,9 +7,7 @@ public:
             {
                 if (i == j) { continue; }
                 if (nums[i] + nums[j] == target)
-                {
-                    return std::vector<int>{i, j};
-                }
+                { return std::vector<int>{i, j}; }
             }
         }
         return std::vector<int>{0, 0};
