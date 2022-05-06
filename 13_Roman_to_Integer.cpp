@@ -4,7 +4,7 @@
 class Solution {
 public:
     
-    // map of roman characters to integers 
+    // map of roman characters to integers
 	std::map<char, int> data
     {
         {'I', 1}, {'V', 5 }, {'X', 10},
