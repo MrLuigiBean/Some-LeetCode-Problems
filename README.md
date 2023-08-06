@@ -11,3 +11,4 @@ Completed Problems:
 * 21 - Merge Two Sorted Lists https://leetcode.com/problems/merge-two-sorted-lists/
 * 26 - Remove Duplicates from Sorted Array https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 * 27 - Remove Element https://leetcode.com/problems/remove-element/
+* 46 - Permutations https://leetcode.com/problems/permutations/
