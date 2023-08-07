@@ -1,6 +1,9 @@
+#include <vector>
+#include <algorithm>
+
 class Solution {
 public:
-    void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
+    void merge(std::vector<int>& nums1, int m, std::vector<int>& nums2, int n) {
         // do nothing if nums2 is empty
         if (!n) { return; }
         // add nums2's elements to the back of nums1

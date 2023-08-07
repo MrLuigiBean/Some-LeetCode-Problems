@@ -1,5 +1,7 @@
-#include <algorithm> // #include <vector> is already inside, nice!
-#include <iostream> // #include <string> is already inside, nice!
+#include <algorithm> // #include <vector> is already inside, nice! (but only on Linux...)
+#include <vector>
+#include <iostream> // #include <string> is already inside, nice! (but only on Linux...)
+#include <string>
 
 /*
 	Problem Constraints:

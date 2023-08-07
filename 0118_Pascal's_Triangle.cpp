@@ -1,9 +1,11 @@
+#include <vector>
+
 class Solution {
 public:
-    vector<vector<int>> generate(int numRows)
+    std::vector<std::vector<int>> generate(int numRows)
     {
         // initialise result with having the correct number of rows
-        vector<vector<int>> result(numRows);
+        std::vector<std::vector<int>> result(numRows);
 
         // make each row have the correct number of spaces
         for (int i = 0; i < result.size(); ++i)

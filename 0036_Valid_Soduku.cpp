@@ -1,3 +1,6 @@
+#include <vector>
+#include <set>
+
 class Solution {
 public:
 
@@ -12,7 +15,7 @@ public:
         CustomException(TYPE type) : error_type{type}{}
     };
 
-    bool ValidateRow(vector<vector<char>> const& board, int row)
+    bool ValidateRow(std::vector<std::vector<char>> const& board, int row)
     {
         std::set<char> rowDigits;
 
@@ -32,7 +35,7 @@ public:
         return true;
     }
 
-    bool ValidateCol(vector<vector<char>> const& board, int col)
+    bool ValidateCol(std::vector<std::vector<char>> const& board, int col)
     {
         std::set<char> colDigits;
 
@@ -52,7 +55,7 @@ public:
         return true;
     }
     
-    bool ValidateBox(vector<vector<char>> const& board, int box)
+    bool ValidateBox(std::vector<std::vector<char>> const& board, int box)
     {
         std::set<char> boxDigits;
         
@@ -74,7 +77,7 @@ public:
         return true;
     }
 
-    bool isValidSudoku(vector<vector<char>>& board)
+    bool isValidSudoku(std::vector<std::vector<char>>& board)
     {
         try
         {

@@ -1,6 +1,9 @@
+#include <string>
+#include <unordered_set>
+
 class Solution {
 public:
-    bool isStringUnique(string const& s)
+    bool isStringUnique(std::string const& s)
     {
         std::unordered_set<char> letters;
         for (char const& letter : s)
@@ -11,7 +14,7 @@ public:
         return true; // letters.size() == s.size();
     }
     
-    int lengthOfLongestSubstring(string s) {
+    int lengthOfLongestSubstring(std::string s) {
         std::string result{}, substring;        
         for (unsigned int i = 0; i < s.length(); ++i)
         {

@@ -16,7 +16,7 @@ public:
     // like switch-case statements
     
     // using just the provided string
-    int romanToInt(string s)
+    int romanToInt(std::string s)
     {
         int total{0};
         for (int i{0}; i < s.length(); ++i)
@@ -34,7 +34,7 @@ public:
     }
     
     // using stringstream
-    int romanToInt0(string s)
+    int romanToInt0(std::string s)
     {
         std::stringstream is{s};
         int total{0};

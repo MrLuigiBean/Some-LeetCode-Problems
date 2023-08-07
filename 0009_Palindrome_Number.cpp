@@ -1,9 +1,11 @@
+#include <string>
+
 class Solution {
 public:
     bool isPalindrome(int x) {
         if (x < 0)
         { return false; }
-        std:string text{std::to_string(x)};
+        std::string text{std::to_string(x)};
         size_t length = text.length();
         if (length % 2) // odd length
         {

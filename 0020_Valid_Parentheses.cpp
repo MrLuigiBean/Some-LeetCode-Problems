@@ -1,3 +1,5 @@
+#include <string>
+
 class Solution {
 public:
     bool validate(std::string &string, size_t &round, size_t &square, size_t &curly)
@@ -11,7 +13,7 @@ public:
                curly != std::string::npos;
     }
     
-    bool isValid(string s)
+    bool isValid(std::string s)
     {
         size_t round, square, curly;
 

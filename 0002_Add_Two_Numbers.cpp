@@ -1,14 +1,15 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
-//#include <iostream>
+#include <string>
+#include <algorithm>
+
+struct ListNode // Definition for singly-linked list.
+{
+    int val;
+    ListNode *next;
+    ListNode() : val(0), next(nullptr) {}
+    ListNode(int x) : val(x), next(nullptr) {}
+    ListNode(int x, ListNode *next) : val(x), next(next) {}
+};
+
 class Solution {
 public:
     // following given pseudocode
@@ -93,7 +94,7 @@ public:
             n1 = n1 * 10 + l1->val;
             l1 = l1->next;
         }
-        std::cout << n1 <<'\n';
+        // std::cout << n1 <<'\n';
 
         while(l2 != nullptr)
         {
@@ -106,13 +107,13 @@ public:
             n2 = n2 * 10 + l2->val;
             l2 = l2->next;
         }
-        std::cout << n2 <<'\n';
+        // std::cout << n2 <<'\n';
 
         // unreverse numbers
         n1 = unreverseNumber(n1, n1HasLeading0);
         n2 = unreverseNumber(n2, n2HasLeading0);
-        std::cout << n1 <<'\n';
-        std::cout << n2 <<'\n';
+        // std::cout << n1 <<'\n';
+        // std::cout << n2 <<'\n';
 
         // add
         n3 = n1 + n2;

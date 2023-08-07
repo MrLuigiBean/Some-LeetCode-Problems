@@ -1,6 +1,9 @@
+#include <vector>
+#include <algorithm>
+
 class Solution {
 public:
-    int removeDuplicates(vector<int>& nums) {
+    int removeDuplicates(std::vector<int>& nums) {
         /*const size_t oldSize{nums.size()};
         int newSize = oldSize;
         for (int i{0}; i < oldSize - 1; ++i)

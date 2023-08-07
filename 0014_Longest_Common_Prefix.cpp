@@ -1,3 +1,6 @@
+#include <vector>
+#include <string>
+
 class Solution {
 public:
     bool wordsCheck(std::vector<std::string>& strings, std::string& prefix)
@@ -10,7 +13,7 @@ public:
         return true;
     }
     
-    string longestCommonPrefix(vector<string>& strs)
+    std::string longestCommonPrefix(std::vector<std::string>& strs)
     {
         // first character of first word
         std::string prevPrefix{}, prefix{strs[0].substr(0, 1)};

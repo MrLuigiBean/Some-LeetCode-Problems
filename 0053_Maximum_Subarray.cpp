@@ -1,8 +1,11 @@
+#include <vector>
+#include <climits>
+
 class Solution {
 public:
     // https://www.interviewbit.com/blog/maximum-subarray-sum/
     // https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
-    int maxSubArray(vector<int>& nums) {
+    int maxSubArray(std::vector<int>& nums) {
         // vectors with a single element
         if (nums.size() == 1) { return nums[0]; }
         

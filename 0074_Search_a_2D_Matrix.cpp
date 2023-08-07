@@ -1,6 +1,8 @@
+#include <vector>
+
 class Solution {
 public:
-    int GetElement(vector<vector<int>> &matrix, int index)
+    int GetElement(std::vector<std::vector<int>> &matrix, int index)
 	{
 		int result = 0;
 		if (matrix.size() == 1) // case for row vectors
@@ -21,7 +23,7 @@ public:
 		return result;
 	}
     
-    bool searchMatrix(vector<vector<int>>& matrix, int target)
+    bool searchMatrix(std::vector<std::vector<int>>& matrix, int target)
     {
         // because the matrix is sorted in ascending order, 
         // binary seach can be used.
