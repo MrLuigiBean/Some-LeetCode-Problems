@@ -151,10 +151,10 @@ private:
 			if (index < 0)
 				return true;
 
-			// increment the idendified index (since its guaranteed to be safe to do so)
+			// increment the identified index (since its guaranteed to be safe to do so)
 			++comb[index];
 
-			// set all subsequent elments (e.g. from [...,1,8,9] to [...,2,3,4])
+			// set all subsequent elements (e.g. from [...,1,8,9] to [...,2,3,4])
 			for (int i = index + 1; i < priv_k; ++i)
 				comb[i] = comb[index] + i - index;
 
