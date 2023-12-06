@@ -12,6 +12,7 @@ Completed Problems:
 * 0021 - Merge Two Sorted Lists https://leetcode.com/problems/merge-two-sorted-lists/
 * 0026 - Remove Duplicates from Sorted Array https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 * 0027 - Remove Element https://leetcode.com/problems/remove-element/
+* 0029 - Divide Two Integers https://leetcode.com/problems/divide-two-integers/
 * 0036 - Valid Sudoku https://leetcode.com/problems/valid-sudoku/
 * 0046 - Permutations https://leetcode.com/problems/permutations/
 * 0053 - Maximum Subarray https://leetcode.com/problems/maximum-subarray/
