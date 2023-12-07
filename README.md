@@ -23,5 +23,6 @@ Completed Problems:
 * 0121 - Best Time to Buy and Sell Stock https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 * 0217 - Contains Duplicate https://leetcode.com/problems/contains-duplicate/
 * 0350 - Intersection of Two Arrays II https://leetcode.com/problems/intersection-of-two-arrays-ii/
+* 0383 - Ransom Note https://leetcode.com/problems/ransom-note/
 * 0566 - Reshape the Matrix https://leetcode.com/problems/reshape-the-matrix/
 * 2235 - Add Two Integers https://leetcode.com/problems/add-two-integers/
