@@ -24,6 +24,7 @@ Completed Problems:
 * 0121 - [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 * 0217 - [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 * 0242 - [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
+* 0347 - [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
 * 0350 - [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)
 * 0383 - [Ransom Note](https://leetcode.com/problems/ransom-note/)
 * 0485 - [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)
