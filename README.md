@@ -15,6 +15,7 @@ Completed Problems:
 * 0029 - [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)
 * 0036 - [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
 * 0046 - [Permutations](https://leetcode.com/problems/permutations/)
+* 0049 - [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 * 0053 - [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 * 0074 - [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
 * 0077 - [Combinations](https://leetcode.com/problems/combinations/)
