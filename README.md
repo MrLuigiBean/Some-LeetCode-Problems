@@ -20,6 +20,7 @@ Completed Problems:
 * 0074 - [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
 * 0077 - [Combinations](https://leetcode.com/problems/combinations/)
 * 0088 - [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
+* 0105 - [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 * 0106 - [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
 * 0118 - [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
 * 0121 - [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
